@@ -20,6 +20,8 @@ export default function Home() {
 				<TailwindButton>In Tailwind Style</TailwindButton>
 				<br />
 				<ConditionalButton isRed>Conditional Tailwind</ConditionalButton>
+				<br />
+				<TwinText>Hello there</TwinText>
 			</main>
 		</div>
 	);
@@ -35,6 +37,13 @@ const TailwindButton = tw.button`
   border
   border-black
   rounded
+`;
+
+const TwinText = tw.p`
+	text-gray-700
+	cursor-pointer 
+	hover:(text-white bg-zinc-800)
+	text-4xl
 `;
 
 // still works despite importing from twin.macro
