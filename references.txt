@@ -1,3 +1,5 @@
 https://www.youtube.com/watch?v=do3LSqK929Q&t=266s
 
 https://github.com/tailwindlabs/tailwindcss/issues/1068  
+
+https://www.npmjs.com/package/tailwindcss-brand-colors 
